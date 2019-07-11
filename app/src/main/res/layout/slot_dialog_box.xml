@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="Select Slot"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:background="@color/light_green"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!-- <ProgressBar
+             android:id="@+id/progress_bar"
+             android:layout_width="match_parent"
+             android:layout_height="50dp"
+             android:theme="@style/RedAccent"
+             android:layout_centerInParent="true"
+             android:padding="10dp"
+             android:visibility="gone"/>-->
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+        </android.support.v7.widget.RecyclerView>
+    </RelativeLayout>
+</LinearLayout>

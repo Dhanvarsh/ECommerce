@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">E-commerce</string>
+    <string name="create_Account">Create Account</string>
+    <string name="open_navigation_drawer">open_navigation_drawer</string>
+    <string name="close_navigation_drawer">close_navigation_drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_product_weight_adapter">ProductWeightAdapter</string>
+</resources>
